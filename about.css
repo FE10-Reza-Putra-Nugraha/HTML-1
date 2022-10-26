@@ -41,52 +41,48 @@ nav li a:hover {
   color: orangered;
 }
 
-#hero {
+#about {
   min-height: 100vh;
   width: 100vw;
-  background-image: url('./img/bg-img.png');
-  background-size: cover;
+  padding: 100px 0;
+  color: black;
+}
+
+#judul {
+  font-size: 30px;
+  color: #19345e;
+  background-color: #f4f7fc;
+  padding: 20px 125px;
+  font-weight: 650;
+}
+
+#body-about {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 125px;
 }
 
-#hero img {
-  text-align: center;
-  width: 350px;
-  height: auto;
-  border-radius: 50%;
+#img-about .img-1 {
+  width: 150px;
+  height: 150px;
 }
 
-#biodata {
-  margin-left: 40px;
+#img-about .img-2 {
+  margin-top: 50px;
+  margin-right: -50px;
+}
+
+#paragraph {
+  width: 50%;
+}
+
+#paragraph table,
+td {
   color: #19345e;
-  display: flex;
-  flex-direction: column;
+  border: 0.1px solid #19345e;
 }
 
-#biodata .p1 {
-  font-size: 28px;
-  margin: 0;
-}
-
-#biodata .p2 {
-  font-size: 55px;
-  font-weight: 600;
-  margin: 0;
-}
-
-#biodata .p3 {
-  font-size: 30px;
-  margin: 0;
-}
-
-#touch {
-  background-color: #f47522;
-  padding: 5px 25px;
-  margin-right: auto;
-  margin-top: 20px;
-  color: white;
-  border-radius: 50px;
+#paragraph td {
+  padding: 5px 10px;
 }
