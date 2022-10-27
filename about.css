@@ -57,10 +57,12 @@ nav li a:hover {
 }
 
 #body-about {
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 0 125px;
+  color: #19345e;
 }
 
 #img-about .img-1 {
@@ -85,4 +87,24 @@ td {
 
 #paragraph td {
   padding: 5px 10px;
+}
+
+#last {
+  margin-top: 50px;
+  padding: 10px 125px;
+  background-color: #19345e;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#last .img-3 {
+  width: 150px;
+  height: auto;
+}
+
+#last .sosial {
+  color: white;
 }
